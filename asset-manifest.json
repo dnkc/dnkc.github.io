@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.350dd6ad.css",
-    "main.js": "/react-gh-pages/static/js/main.4d9c3417.js",
-    "static/media/admin.JPG": "/react-gh-pages/static/media/admin.f1d33cb8d876310bd8a7.JPG",
-    "static/media/realestate.jpg": "/react-gh-pages/static/media/realestate.8f2901a194ef3052251a.jpg",
-    "static/media/beaches.JPG": "/react-gh-pages/static/media/beaches.9f38674c70ad0454ebe1.JPG",
-    "static/media/cocktails.JPG": "/react-gh-pages/static/media/cocktails.bff6513315fb089bb3bd.JPG",
-    "static/media/greatkart.JPG": "/react-gh-pages/static/media/greatkart.d3337c8750f60200536e.JPG",
-    "static/media/proshop.JPG": "/react-gh-pages/static/media/proshop.c702b901ffecf1554e80.JPG",
-    "index.html": "/react-gh-pages/index.html",
-    "main.350dd6ad.css.map": "/react-gh-pages/static/css/main.350dd6ad.css.map",
-    "main.4d9c3417.js.map": "/react-gh-pages/static/js/main.4d9c3417.js.map"
+    "main.css": "/static/css/main.350dd6ad.css",
+    "main.js": "/static/js/main.22d9f26d.js",
+    "static/media/admin.JPG": "/static/media/admin.f1d33cb8d876310bd8a7.JPG",
+    "static/media/realestate.jpg": "/static/media/realestate.8f2901a194ef3052251a.jpg",
+    "static/media/beaches.JPG": "/static/media/beaches.9f38674c70ad0454ebe1.JPG",
+    "static/media/cocktails.JPG": "/static/media/cocktails.bff6513315fb089bb3bd.JPG",
+    "static/media/greatkart.JPG": "/static/media/greatkart.d3337c8750f60200536e.JPG",
+    "static/media/proshop.JPG": "/static/media/proshop.c702b901ffecf1554e80.JPG",
+    "index.html": "/index.html",
+    "main.350dd6ad.css.map": "/static/css/main.350dd6ad.css.map",
+    "main.22d9f26d.js.map": "/static/js/main.22d9f26d.js.map"
   },
   "entrypoints": [
     "static/css/main.350dd6ad.css",
-    "static/js/main.4d9c3417.js"
+    "static/js/main.22d9f26d.js"
   ]
 }
