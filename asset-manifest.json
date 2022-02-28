@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.350dd6ad.css",
-    "main.js": "/static/js/main.22d9f26d.js",
+    "main.css": "/static/css/main.5aa9318f.css",
+    "main.js": "/static/js/main.d8a5dc56.js",
     "static/media/admin.JPG": "/static/media/admin.f1d33cb8d876310bd8a7.JPG",
     "static/media/realestate.jpg": "/static/media/realestate.8f2901a194ef3052251a.jpg",
     "static/media/beaches.JPG": "/static/media/beaches.9f38674c70ad0454ebe1.JPG",
@@ -9,11 +9,11 @@
     "static/media/greatkart.JPG": "/static/media/greatkart.d3337c8750f60200536e.JPG",
     "static/media/proshop.JPG": "/static/media/proshop.c702b901ffecf1554e80.JPG",
     "index.html": "/index.html",
-    "main.350dd6ad.css.map": "/static/css/main.350dd6ad.css.map",
-    "main.22d9f26d.js.map": "/static/js/main.22d9f26d.js.map"
+    "main.5aa9318f.css.map": "/static/css/main.5aa9318f.css.map",
+    "main.d8a5dc56.js.map": "/static/js/main.d8a5dc56.js.map"
   },
   "entrypoints": [
-    "static/css/main.350dd6ad.css",
-    "static/js/main.22d9f26d.js"
+    "static/css/main.5aa9318f.css",
+    "static/js/main.d8a5dc56.js"
   ]
 }
