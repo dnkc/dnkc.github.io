@@ -17,9 +17,9 @@ export default function About() {
             role. Most familiar with the MERN stack, along with Django / Python
             through self-learning.
           </p>
-          <p className="mb-8 leading-relaxed">
+          {/* <p className="mb-8 leading-relaxed">
             This website is my first attempt at working with Tailwind CSS.
-          </p>
+          </p> */}
           <div className="flex justify-center">
             <a
               href="#projects"
