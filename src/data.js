@@ -6,63 +6,151 @@ import beaches from "./images/beaches.JPG";
 import cocktails from "./images/cocktails.JPG";
 import admin from "./images/admin.JPG";
 import jobify from "./images/jobify.jpg";
+import hulu from "./images/hulu.jpg";
+import cloud from "./images/cloud.jpg";
+import gym from "./images/gym.JPG";
+import finance from "./images/finance.JPG";
+import plugin from "./images/plugin.jpg";
+import cupcakes from "./images/cupcakes.jpg";
+import photography from "./images/photography.JPG";
+import login from "./images/login.JPG";
+import travel from "./images/travel.jpg";
+import devconnect from "./images/devconnect.JPG";
+import bags from "./images/bags.JPG";
 
 export const projectsdata = [
   {
-    title: "Full Stack - FIREBASE REAL ESTATE",
+    title: "FULL STACK - FIREBASE REAL ESTATE",
     subtitle: "React, Express, Node, Firebase",
     description: "Firebase backend, Google login, hosted on Netlify.",
     image: realestate,
     link: "https://suspicious-brown-a6117c.netlify.app/",
   },
   {
-    title: "Full Stack - JOB TRACKING APP",
+    title: "FULL STACK - JOB TRACKING APP",
     subtitle: "MongoDB, Express, React, Node",
     description: "MongoDB for backend, React Front-End, hosted on Heroku.",
     image: jobify,
     link: "https://dk-jobs-app.herokuapp.com",
   },
   {
-    title: "Full Stack - PROSHOP E-COMMERCE",
+    title: "FULL STACK - PROSHOP E-COMMERCE",
     subtitle: "MongoDB, Express, React, Node",
     description: "Redux, Reducers, and more! Hosted on Heroku.",
     image: proshop,
     link: "https://dk-mern-proshop.herokuapp.com/",
   },
   {
-    title: "Full Stack - DJANGO E-COMMERCE",
+    title: "FULL STACK - FIREBASE / STRIPE E-COMMERCE",
+    subtitle: "React & Firebase with Stripe integration",
+    description: "Firebase for storage, React for front end. Hosted on Heroku.",
+    image: bags,
+    link: "https://dk-stripe-ecommerce.herokuapp.com/",
+  },
+  {
+    title: "FULL STACK - SOCIAL MEDIA",
+    subtitle: "MongoDB, Express, React, Node",
+    description: "MongoDB for backend, React Front-End, hosted on Heroku.",
+    image: devconnect,
+    link: "https://dk-django-ecommerce.herokuapp.com/",
+  },
+  {
+    title: "FULL STACK - DJANGO E-COMMERCE",
     subtitle: "Python & Bootstrap",
     description: "IMAGES TEMPORARILY OUT OF ORDER UNTIL MOVED TO AMAZON S3",
     image: greatkart,
     link: "https://dk-django-ecommerce.herokuapp.com/",
   },
   {
-    title: "Front-End - Admin Panel",
+    title: "FRONT-END - ADMIN PANEL",
     subtitle: "JavaScript, HTML, Materialize for CSS",
     description: "Hosted on Netlify.",
     image: admin,
-    link: "https://dazzling-turing-e29b37.netlify.app/",
+    link: "https://idyllic-tapioca-14136e.netlify.app/",
   },
   {
-    title: "Front-End - Beach Resort",
+    title: "FRONT-END - Beach Resort",
     subtitle: "React, JavaScript, HTML, CSS",
     description: "Hosted on Netlify.",
     image: beaches,
     link: "https://dk-react-resort.netlify.app/",
   },
   // {
-  //   title: "Front-End - Stripe Navbar",
+  //   title: "FRONT-END - Stripe Navbar",
   //   subtitle: "JavaScript & CSS",
   //   description: "Hosted on Netlify.",
   //   image: stripe,
   //   link: "https://dk-stripe-submenus.netlify.app/",
   // },
   {
-    title: "Front-End - Cocktail DB Website",
-    subtitle: "JavaScipt & CSS",
+    title: "FRONT-END - Cocktail Recipe Website",
+    subtitle: "JavaScript & CSS",
     description: "Hosted on Netlify.",
     image: cocktails,
     link: "https://dk-cocktail-db.netlify.app/",
+  },
+  {
+    title: "FRONT-END - Hulu Clone",
+    subtitle: "NextJS, React, Tailwind CSS",
+    description: "Hosted on Netlify.",
+    image: hulu,
+    link: "https://fabulous-sorbet-eade19.netlify.app/",
+  },
+  {
+    title: "FRONT-END - Cloud Service Mockup",
+    subtitle: "React & Tailwind CSS",
+    description: "Hosted on Netlify.",
+    image: cloud,
+    link: "https://merry-gumption-0c5415.netlify.app/",
+  },
+  {
+    title: "FRONT-END - Gym Landing Page",
+    subtitle: "React & Tailwind CSS",
+    description: "Hosted on Netlify.",
+    image: gym,
+    link: "https://effervescent-gumption-e7ef9c.netlify.app/",
+  },
+  {
+    title: "FRONT-END - Finance Landing Page",
+    subtitle: "React & Tailwind CSS",
+    description: "Hosted on Netlify.",
+    image: finance,
+    link: "https://chic-horse-8d71d9.netlify.app/",
+  },
+  {
+    title: "FRONT-END - Google Plugin Landing Page",
+    subtitle: "JS, HTML, Tailwind CSS",
+    description: "Hosted on Netlify.",
+    image: plugin,
+    link: "https://sparkly-centaur-672627.netlify.app/",
+  },
+  {
+    title: "FRONT-END - Cupcake Store Mockup",
+    subtitle: "JS, HTML, CSS",
+    description: "Hosted on Netlify.",
+    image: cupcakes,
+    link: "https://chipper-wisp-bef197.netlify.app/",
+  },
+  {
+    title: "FRONT-END - Photography Services Mockup",
+    subtitle: "JS, HTML, Materialize CSS",
+    description: "Hosted on Netlify.",
+    image: photography,
+    link: "https://deluxe-daifuku-c2d58b.netlify.app/",
+  },
+  {
+    title: "FRONT-END - Login Page Mockup",
+    subtitle: "JS, HTML, CSS",
+    description: "Hosted on Netlify.",
+    image: login,
+    link: "https://regal-syrniki-e38d1b.netlify.app/",
+  },
+  {
+    title: "FRONT-END - Travel Service Mockup",
+    subtitle: "JS, HTML, Materialize CSS",
+    description: "Hosted on Netlify.",
+    image: travel,
+    link: "https://super-fairy-dad4f4.netlify.app/",
   },
 ];
 
@@ -77,6 +165,8 @@ export const skills = [
   "MySQL",
   "Bootstrap CSS",
   "Tailwind CSS",
+  "NextJS",
+  "GraphQL",
 ];
 export const civil_skills = [
   "AutoCAD 2D",
@@ -87,6 +177,8 @@ export const civil_skills = [
   "QGIS",
   "OTTHYMO",
   "HEC-RAS",
+  "MS Office Suite",
+  "MS Project",
 ];
 
 export const experience = [

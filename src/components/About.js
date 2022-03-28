@@ -23,7 +23,7 @@ export default function About() {
           <div className="flex justify-center">
             <a
               href="#projects"
-              className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg"
+              className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg mt-5"
             >
               See My Past Work
             </a>
