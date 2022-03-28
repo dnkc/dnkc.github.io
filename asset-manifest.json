@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.778eb6c5.css",
-    "main.js": "/static/js/main.2d9e6a79.js",
+    "main.js": "/static/js/main.5dfaa6a7.js",
     "static/media/hulu.jpg": "/static/media/hulu.c49e124a56009045b49b.jpg",
     "static/media/photography.JPG": "/static/media/photography.36b9cf31be53216121ed.JPG",
     "static/media/travel.jpg": "/static/media/travel.f550fdcca27b4f31cac7.jpg",
@@ -22,10 +22,10 @@
     "static/media/login.JPG": "/static/media/login.3965a53d188a9439a90d.JPG",
     "index.html": "/index.html",
     "main.778eb6c5.css.map": "/static/css/main.778eb6c5.css.map",
-    "main.2d9e6a79.js.map": "/static/js/main.2d9e6a79.js.map"
+    "main.5dfaa6a7.js.map": "/static/js/main.5dfaa6a7.js.map"
   },
   "entrypoints": [
     "static/css/main.778eb6c5.css",
-    "static/js/main.2d9e6a79.js"
+    "static/js/main.5dfaa6a7.js"
   ]
 }
