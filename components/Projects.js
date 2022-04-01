@@ -88,7 +88,7 @@ const Projects = () => {
                     <h2 className="card-title hover:underline">
                       {project.title.toUpperCase()}
                     </h2>
-                    <div className="badge badge-primary  hover:cursor-default">
+                    <div className="badge badge-primary hover:cursor-default truncate">
                       {project.type.toUpperCase()}
                     </div>
                     {/* <p className="mb-2">{project.description}</p> */}
