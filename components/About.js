@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 const About = () => {
   return (
     <>
@@ -26,14 +24,14 @@ const About = () => {
           </p>
         </div>
         <div className="mb-10 mt-35 hidden w-full flex-col lg:mt-12 lg:inline-block lg:w-3/6">
-          <Image
+          <img
             src="/images/greetings.png"
             alt="Hero"
             className="object-cover md:w-3/4"
           />
         </div>
         <div className="my-20 inline-block w-full flex-col lg:mt-0 lg:hidden lg:w-2/5 relative">
-          <Image src="/images/heywhatever.png" alt="image" />
+          <img src="/images/heywhatever.png" alt="image" />
         </div>
       </div>
     </>

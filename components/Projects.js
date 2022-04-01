@@ -1,5 +1,4 @@
 import { projectsdata as projects } from "./data.js";
-import Image from "next/image";
 import { useState, useEffect } from "react";
 import {
   FormControl,
@@ -75,7 +74,7 @@ const Projects = () => {
                   key={idx}
                   className="card bg-base-100 shadow-xl hover:scale-105 border border-primary rounded-lg"
                 >
-                  <Image
+                  <img
                     height="100"
                     width="100"
                     layout="intrinsic"
