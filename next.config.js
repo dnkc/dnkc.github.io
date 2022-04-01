@@ -1,10 +1,8 @@
 /** @type {import('next').NextConfig} */
 
-const isProd = process.env.NODE_ENV === "production";
 const withOptimizedImages = require("next-optimized-images");
 
 const nextConfig = withOptimizedImages({
-  assetPrefix: isProd ? "https://dnkc.github.io/" : "",
   reactStrictMode: true,
   exportPathMap: async function (
     defaultPathMap,
