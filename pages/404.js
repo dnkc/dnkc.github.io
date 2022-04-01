@@ -1,5 +1,5 @@
 import React from "react";
-
+import Link from "next/link";
 const ErrorPage = () => {
   return (
     <>
@@ -328,9 +328,9 @@ const ErrorPage = () => {
             The page has been moved or removed from the website.
           </p>
           <div>
-            <a className="px-4 text-orange-500 hover:underline" href="/">
+            <Link className="px-4 text-orange-500 hover:underline" href="/">
               Home
-            </a>
+            </Link>
           </div>
         </div>
       </section>
