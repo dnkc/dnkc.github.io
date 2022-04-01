@@ -111,9 +111,7 @@ const Projects = () => {
                           rel="noreferrer"
                           className="hover:cursor-pointer "
                         >
-                          <DesktopComputerIcon
-                            className={`text-red-500 h-3 w-3 hover:rotate-45`}
-                          />
+                          <DesktopComputerIcon className="text-red-500 h-3 w-3 hover:rotate-45" />
                         </a>
                         <a
                           href={project.link}
@@ -129,9 +127,7 @@ const Projects = () => {
                           rel="noreferrer"
                           className="hover:cursor-pointer "
                         >
-                          <DesktopComputerIcon
-                            className={`text-red-500 h-3 w-3 hover:rotate-45`}
-                          />
+                          <DesktopComputerIcon className="text-red-500 h-3 w-3 hover:rotate-45" />
                         </a>
                       </div>
                       {project.repo ? (
@@ -144,9 +140,7 @@ const Projects = () => {
                                 rel="noreferrer"
                                 className="hover:cursor-pointer"
                               >
-                                <CodeIcon
-                                  className={`text-red-500 h-3 w-3 hover:rotate-45`}
-                                />
+                                <CodeIcon className="text-red-500 h-3 w-3 hover:rotate-45" />
                               </a>
                               <a
                                 href={project.repo}
@@ -162,9 +156,7 @@ const Projects = () => {
                                 rel="noreferrer"
                                 className="hover:cursor-pointer"
                               >
-                                <CodeIcon
-                                  className={`text-red-500 h-3 w-3 hover:rotate-45`}
-                                />
+                                <CodeIcon className="text-red-500 h-3 w-3 hover:rotate-45" />
                               </a>
                             </>
                           ) : null}
@@ -186,7 +178,7 @@ const Projects = () => {
                     font-bold
                   "
               >
-                That's all for now!
+                {" That's all for now!"}
               </div>
             </div>
           </div>
