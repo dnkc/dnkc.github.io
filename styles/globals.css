@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer compoonents {
+  .my-filter {
+    filter: grayscale(1) contrast(1.2) opacity(0.4);
+  }
+}
