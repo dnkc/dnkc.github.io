@@ -25,8 +25,8 @@ const blogs = "/images/blogs.JPG";
 const pricing = "/images/pricing.JPG";
 const forms = "/images/forms.JPG";
 const googleclone = "/images/google-clone.JPG";
-const spotifyclone = "/images/spotify-img.JPG";
-const airbnb = "/images/airbnb-img.JPG";
+const spotifyclone = "/images/spotify-img.jpg";
+const airbnb = "/images/airbnb-img.jpg";
 
 export const projectsdata = [
   {
