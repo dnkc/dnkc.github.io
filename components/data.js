@@ -27,6 +27,7 @@ const forms = "/images/forms.JPG";
 const googleclone = "/images/google-clone.JPG";
 const spotifyclone = "/images/spotify-img.jpg";
 const airbnb = "/images/airbnb-img.jpg";
+const linkedin = "/images/linkedin-img.jpg";
 
 export const projectsdata = [
   {
@@ -91,6 +92,15 @@ export const projectsdata = [
     image: googleclone,
     repo: "https://github.com/dnkc/google-clone",
     link: "https://google-clone-chi-nine.vercel.app/",
+  },
+  {
+    type: "Front End",
+    title: "LinkedIn Clone",
+    subtitle: "React, JavaScript, HTML, NextJS, Tailwind, MongoDB",
+    description: "Hosted on Vercel.",
+    image: linkedin,
+    repo: "https://github.com/dnkc/linkedin-clone",
+    link: "https://linkedin-clone-dun.vercel.app/home",
   },
   {
     type: "Front End",

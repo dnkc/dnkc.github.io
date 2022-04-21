@@ -105,7 +105,7 @@ const Projects = () => {
                         </div>
                       ))}
                     </div>
-                    <div className="md:flex">
+                    <div>
                       <div className="badge badge-accent border border-primary mr-2 hover:border-primary hover:scale-125">
                         <a
                           href={project.link}
