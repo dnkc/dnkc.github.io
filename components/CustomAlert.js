@@ -1,12 +1,12 @@
-import React from "react";
+import { useState } from "react";
 
 const Alert = () => {
-  const [showAlert, setShowAlert] = React.useState(true);
+  const [showAlert, setShowAlert] = useState(true);
   return (
     <>
       {showAlert ? (
         <div
-          className={"px-6 py-4 border-0 relative mb-4 bg-green-500 rounded-xl"}
+          className={"px-6 py-4 border-0 relative mb-4 bg-success rounded-xl"}
         >
           <span className="text-xl inline-block mr-5 align-middle">
             <i className="fas fa-bell" />
