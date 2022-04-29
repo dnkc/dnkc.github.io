@@ -1,6 +1,6 @@
 const MySkills = () => {
   return (
-    <section className="mt-8 first:mt-0 border-b-8 pb-3">
+    <section className="mt-8 first:mt-0 border-b-8 p-3">
       {/* <!-- To keep in the same column --> */}
       <h2 className="mb-4 font-bold tracking-widest text-lg text-stone-900 ">
         SKILLS

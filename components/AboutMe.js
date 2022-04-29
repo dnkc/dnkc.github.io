@@ -3,28 +3,6 @@ const AboutMe = () => {
   return (
     <>
       <section className=" first:mt-0 border-b-8 pb-3 pr-5">
-        <ul className="list-inside xsm:ml-3">
-          <li className="mt-1 leading-normal text-black text-md hover:text-gray-700 hover:cursor-pointer">
-            <Link passHref href="/projects" className="group">
-              <span className="text-md font-semibold text-stone-800 leading-snug">
-                Portfolio {"    "}
-                <span className="hidden lg:inline-block font-normal group-hover:text-gray-700">
-                  ↗
-                </span>
-              </span>
-            </Link>
-          </li>
-          <li className="mt-1 text-gray-550 text-md hover:text-gray-700 hover:cursor-pointer">
-            <Link passHref href="https://github.com/dnkc" className="group">
-              <span className=" text-md font-semibold text-stone-800 leading-snug">
-                Github {"    "}
-                <span className="hidden lg:inline-block font-normalgroup-hover:text-gray-700">
-                  ↗
-                </span>
-              </span>
-            </Link>
-          </li>
-        </ul>
         {/* <!-- To keep in the same column --> */}
         <h2 className="mt-3 mb-2 font-bold tracking-widest text-lg print:font-normal">
           SUMMARY

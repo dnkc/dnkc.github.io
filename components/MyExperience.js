@@ -1,83 +1,104 @@
+import Link from "next/link";
+
 const MyExperience = () => {
   return (
-    <section className="first:mt-0 border-b-8 pb-3 mt-3">
+    <section className="mt-8 border-b-8 p-3">
       {/* <!-- To keep in the same column --> */}
-      <h2 className=" font-bold tracking-widest text-lg text-stone-900 print:font-normal">
-        EXPERIENCE
+      <h2 className="mb-4 text-lg font-bold tracking-widest  text-gray-900">
+        FRONT-END SAMPLERS
       </h2>
-
-      <section className="mb-2">
+      <section className="mb-4">
         <header>
           <h3 className="text-lg font-semibold text-gray-700 leading-snug">
-            Parsons Inc.
+            <Link
+              href="https://google-clone-chi-nine.vercel.app/"
+              target="_blank"
+              className="group"
+            >
+              Google Clone
+            </Link>{" "}
+            <span className="inline-block text-stone-900 font-normal ">⇗</span>
           </h3>
-          <p className="leading-normal text-md text-gray-600 ">
-            Nov 2021 – Present <br />{" "}
-            <span className="underline">Water Resources Engineer</span>
+          <p className="mt-2 leading-normal text-md text-gray-650">
+            A Google clone with (hopefully still) functional search capability.
+            React, NextJS, Tailwind, JavaScript, HTML/CSS.
           </p>
         </header>
+      </section>
+
+      <section className="mb-4">
+        <header>
+          <h3 className="text-lg font-semibold text-gray-700 leading-snug">
+            <Link
+              href="https://medium-clone-mpkz19e8j-nagardtests-gmailcom.vercel.app/"
+              target="_blank"
+              className="group"
+            >
+              Medium 2.0 Clone
+            </Link>{" "}
+            <span className="inline-block text-stone-900 font-normal"> ⇗</span>
+          </h3>
+        </header>
         <p className="mt-2 text-md text-gray-700 leading-normal">
-          <span className="text-gray-500">&rsaquo; </span> Automated anything
-          possible with ArcGIS & HEC-RAS using Python or VBA
-          <br />
-          <span className="text-gray-500">&rsaquo; </span> Developed detailed
-          design documents including technical drawings, specifications,
-          calculations and contract documents for multi-discipline projects{" "}
-          <br />
-          <span className="text-gray-500">&rsaquo; </span> Created designs,
-          calculations, sketches, diagrams, schematic drawings, and final
-          working drawings <br />
+          A Front-End clone of Medium with comment validation/approval using
+          Sanity CMS, React, NextJS, Tailwind, hosted on Vercel.
         </p>
       </section>
 
-      <section className="mb-2">
+      <section className="mb-4">
         <header>
           <h3 className="text-lg font-semibold text-gray-700 leading-snug">
-            GHD Ltd.
+            <Link
+              href="https://linkedin-clone-dun.vercel.app/home"
+              target="_blank"
+              className="group"
+            >
+              LinkedIn Clone
+            </Link>{" "}
+            <span className="inline-block text-stone-900 font-normal ">⇗</span>
           </h3>
-          <p className="leading-normal text-md text-gray-600">
-            Dec 2016 – Nov 2021 <br />
-            <span className="underline">Civil Engineer-In-Training</span>
-          </p>
         </header>
         <p className="mt-2 text-md text-gray-700 leading-normal">
-          <span className="text-gray-500">&rsaquo; </span> Prepared engineering
-          design sheets & calculations for municipal infrastructure projects to
-          complete preliminary and detailed designs <br />
-          <span className="text-gray-500">&rsaquo; </span> Prepared drawings
-          including set-up, alignments, profiles, sections, corridors and pipe
-          networks using various software <br />
-          <span className="text-gray-500">&rsaquo; </span> Inspected work on
-          site performed by contractors, measured quantities, documented
-          progress, provided field direction, prepared weekly & monthly
-          inspection reports, payment certificates
-          <br />
+          A Front-End clone of the LinkedIn landing page, hosted on Vercel.
+          React, JavaScript, HTML, NextJS, Tailwind, MongoDB.
         </p>
       </section>
 
-      <section className="mb-2">
+      <section className="mb-4">
         <header>
           <h3 className="text-lg font-semibold text-gray-700 leading-snug">
-            Englobe Inc.
+            <Link
+              href="https://airbnb-clone-frontend-gjbw9xwjh-nagardtests-gmailcom.vercel.app/"
+              target="_blank"
+              className="group"
+            >
+              AirBNB Clone
+            </Link>{" "}
+            <span className="inline-block text-stone-900 font-normal">⇗</span>
           </h3>
-          <p className="leading-normal text-md text-gray-600">
-            Aug 2014 – Dec 2016 <br />
-            <span className="underline">Design Technologist</span>
-          </p>
         </header>
         <p className="mt-2 text-md text-gray-700 leading-normal">
-          <span className="text-gray-500">&rsaquo; </span> Prepared CAD drawings
-          including set-up, alignments, profiles, sections, site plans, and
-          other engineering plans <br />
-          <span className="text-gray-500">&rsaquo; </span> Data entry,
-          preparation/organization of field sketches & digital photographs,
-          completion of daily checklists
-          <br />
-          <span className="text-gray-500">&rsaquo; </span> Produced and acquired
-          survey plans, field notes, maps, aerial photographs, and other
-          materials from public and private sources to complete plans for
-          various phases of project required by engineers
-          <br />
+          A Front-End clone of the AirBNB landing page, hosted on Vercel. React,
+          JavaScript, HTML, NextJS, Tailwind.
+        </p>
+      </section>
+      <section className="mb-4">
+        <header>
+          <h3 className="text-lg font-semibold text-gray-700 leading-snug">
+            <Link
+              href="https://spotify-clone-2arj0t2bu-nagardtests-gmailcom.vercel.app/login"
+              target="_blank"
+              className="group"
+            >
+              Spotify Clone
+            </Link>{" "}
+            <span className="inline-block text-stone-900 font-normal">⇗</span>
+          </h3>
+        </header>
+        <p className="mt-2 text-md text-gray-700 leading-normal">
+          A Front-End clone of Spotify, with functional login and playlist
+          selection, with player functionality. React, JavaScript, HTML, NextJS,
+          Tailwind, hosted on Vercel.
         </p>
       </section>
     </section>

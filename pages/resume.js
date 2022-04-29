@@ -34,9 +34,9 @@ const Resume = () => {
           {/* <!-- Column --> */}
           <div className="grid grid-cols-2 md:col-count-2 col-gap-md md:h-letter-col-full col-fill-auto">
             <AboutMe />
+            <MyProjects />
             <MyExperience />
             <MyEducation />
-            <MyProjects />
             <MySkills />
             <MySkillsTwo />
           </div>

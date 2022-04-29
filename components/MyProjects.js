@@ -1,7 +1,7 @@
 import Link from "next/link";
 const MyProjects = () => {
   return (
-    <section className="mt-8 first:mt-0 border-b-8 pb-3">
+    <section className="mt-8 first:mt-0 border-b-8 p-3">
       {/* <!-- To keep in the same column --> */}
       <h2 className="mb-4 text-lg font-bold tracking-widest  text-gray-900">
         FULL STACK SAMPLERS
@@ -16,14 +16,11 @@ const MyProjects = () => {
               className="group"
             >
               Jobify
-            </Link>
+            </Link>{" "}
             <span className="inline-block text-stone-900 font-normal  transition duration-100 ease-in">
-              ↗
+              ⇗
             </span>
           </h3>
-          <p className="leading-normal text-md text-gray-650">
-            Job Posting Board with Dashboard
-          </p>
         </header>
         <p className="mt-2 text-md text-gray-700 leading-normal">
           React, Express, NodeJS. MongoDB, JWT authentication/authorization,
@@ -40,9 +37,9 @@ const MyProjects = () => {
               className="group"
             >
               Firebase Real-Estate
-            </Link>
+            </Link>{" "}
             <span className="inline-block text-stone-900 font-normal  transition duration-100 ease-in">
-              ↗
+              ⇗
             </span>
           </h3>
         </header>
@@ -63,7 +60,7 @@ const MyProjects = () => {
               Stripe E-Commerce
             </Link>{" "}
             <span className="inline-block text-stone-900 font-normal  transition duration-100 ease-in">
-              ↗
+              ⇗
             </span>
           </h3>
         </header>
@@ -84,7 +81,7 @@ const MyProjects = () => {
               Dev Connector
             </Link>{" "}
             <span className="inline-block text-stone-900 font-normal transition duration-100 ease-in">
-              ↗
+              ⇗
             </span>
           </h3>
         </header>

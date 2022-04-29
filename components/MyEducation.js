@@ -1,6 +1,6 @@
 const MyEducation = () => {
   return (
-    <section className="mt-8 first:mt-0 border-b-8 pb-3">
+    <section className="mt-8 first:mt-0 border-b-8 p-3">
       {/* <!-- To keep in the same column --> */}
       <h2 className="mb-4 font-bold tracking-widest text-lg  text-stone-900 print:font-normal">
         EDUCATION
@@ -13,15 +13,14 @@ const MyEducation = () => {
           </h3>
           <p className="leading-normal text-md text-gray-600">
             2017 – 2019 | Degree
-            <br />
             <span className="leading-normal text-md text-gray-600">
-              <span className="text-gray-500">&rsaquo; </span>
+              <span className="text-gray-500"> ► </span>
               Bachelor of Engineering
             </span>
           </p>
         </header>
         <p className="text-md text-gray-700 leading-normal">
-          <span className="text-gray-500">&rsaquo; </span>
+          <span className="text-gray-500"> ► </span>
           Graduate Project: Developing Imagery Software
         </p>
       </section>
@@ -33,9 +32,8 @@ const MyEducation = () => {
           </h3>
           <p className="leading-normal text-md text-gray-600">
             2013 – 2016 | Diploma
-            <br />
             <span className="leading-normal text-md text-gray-600">
-              <span className="text-gray-500">&rsaquo; </span>
+              <span className="text-gray-500"> ► </span>
               Civil Engineering Technology Advanced
             </span>
           </p>
@@ -49,25 +47,22 @@ const MyEducation = () => {
           </h3>
           <p className="leading-normal text-md text-gray-600">
             2018 | Certificate
-            <br />
             <span className="leading-normal text-md text-gray-600">
-              <span className="text-gray-500">&rsaquo; </span>
+              <span className="text-gray-500"> ► </span>
               Responsive Web Design
             </span>
           </p>
           <p className="leading-normal text-md text-gray-600">
             2018 | Certificate
-            <br />
             <span className="leading-normal text-md text-gray-600">
-              <span className="text-gray-500">&rsaquo; </span> Front End
-              Development Libraries
+              <span className="text-gray-500"> ► </span> Front End Development
+              Libraries
             </span>
           </p>
           <p className="leading-normal text-md text-gray-600">
             2018 | Certificate
-            <br />
             <span className="leading-normal text-md text-gray-600">
-              <span className="text-gray-500">&rsaquo; </span>
+              <span className="text-gray-500"> ► </span>
               Back End Development and APIs
             </span>
           </p>
@@ -81,33 +76,29 @@ const MyEducation = () => {
           </h3>
           <p className="leading-normal text-md text-gray-600">
             2021 | Certificate
-            <br />
             <span className="leading-normal text-md text-gray-600">
-              <span className="text-gray-500">&rsaquo; </span>
+              <span className="text-gray-500"> ► </span>
               Introduction to Machine Learning
             </span>
           </p>
           <p className="leading-normal text-md text-gray-600">
             2021 | Certificate
-            <br />
             <span className="leading-normal text-md text-gray-600">
-              <span className="text-gray-500">&rsaquo; </span>
+              <span className="text-gray-500"> ► </span>
               Deep Learning Specialization
             </span>
           </p>
           <p className="leading-normal text-md text-gray-600">
             2021 | Certificate
-            <br />
             <span className="leading-normal text-md text-gray-600">
-              <span className="text-gray-500">&rsaquo; </span>
+              <span className="text-gray-500"> ► </span>
               TensorFlow Developer Professional
             </span>
           </p>
           <p className="leading-normal text-md text-gray-600">
             2021 | Certificate
-            <br />
             <span className="leading-normal text-md text-gray-600">
-              <span className="text-gray-500">&rsaquo; </span>
+              <span className="text-gray-500"> ► </span>
               TensorFlow: Advanced Techniques
             </span>
           </p>
