@@ -1,0 +1,262 @@
+/* --- 1. CSS Variables and Global Styles --- */
+:root {
+  --bg-color: #f8f9fa;
+  --text-color: #212529;
+  --accent-color: #0056b3;
+  --nav-height: 70px;
+}
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: var(--nav-height);
+}
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* --- 2. Layout & Container --- */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* --- 3. Header & Navigation --- */
+.navbar {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: var(--nav-height);
+  background-color: var(--bg-color);
+  border-bottom: 1px solid #dee2e6;
+  z-index: 1000;
+}
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+.logo a {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: var(--text-color);
+  text-decoration: none;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 25px;
+}
+nav a {
+  color: var(--text-color);
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.2s ease-in-out;
+}
+nav a:hover {
+  color: var(--accent-color);
+}
+
+/* --- 4. Hero / Landing Section --- */
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: calc(100vh - var(--nav-height));
+  text-align: center;
+}
+.hero h1 {
+  font-size: 4rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+}
+.hero .subtitle {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #6c757d;
+  margin-top: 0;
+}
+
+/* --- 5. General Section Styling --- */
+.content-section {
+  padding: 80px 0;
+}
+.content-section:not(:first-child) {
+  border-top: 1px solid #dee2e6;
+}
+.content-section h2 {
+  font-size: 2.5rem;
+  margin-top: 0;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+/* --- 6. Projects Section --- */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+.project-card {
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  padding: 25px;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+.project-card h3 {
+  margin-top: 0;
+  font-size: 1.25rem;
+  color: var(--accent-color);
+}
+.project-links {
+  margin-top: 20px;
+}
+.project-links a {
+  color: var(--accent-color);
+  text-decoration: none;
+  font-weight: 700;
+  margin-right: 20px;
+}
+.project-links a:hover {
+  text-decoration: underline;
+}
+
+/* --- 7. Education & Papers Sections --- */
+.education-item,
+.paper-category {
+  margin-bottom: 30px;
+}
+.education-item h3,
+.paper-category h3 {
+  font-size: 1.25rem;
+  margin-bottom: 5px;
+}
+.education-item p {
+  margin: 0;
+}
+#papers ul {
+  list-style: none;
+  padding-left: 0;
+}
+#papers li {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+#papers li a {
+  display: inline-block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: var(--accent-color);
+  text-decoration: none;
+}
+#papers li a:hover {
+  text-decoration: underline;
+}
+
+/* --- 8. Contact Section --- */
+#contact .container {
+  text-align: center;
+}
+.contact-links {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+.contact-links li {
+  margin-bottom: 15px;
+}
+.contact-links a {
+  color: var(--accent-color);
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.contact-links a:hover {
+  text-decoration: underline;
+}
+
+/* --- 9. Footer --- */
+footer {
+  padding: 30px 0;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #6c757d;
+  border-top: 1px solid #dee2e6;
+}
+
+/* --- 10. Responsive Design --- */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2.8rem;
+  }
+  .hero .subtitle {
+    font-size: 1.2rem;
+  }
+  .content-section h2 {
+    font-size: 2rem;
+  }
+  .navbar .container {
+    flex-direction: column;
+    padding: 10px 0;
+    height: auto;
+  }
+  .navbar nav ul {
+    margin-top: 10px;
+    gap: 15px;
+  }
+  html {
+    scroll-padding-top: 110px;
+  }
+}
+
+/* --- 11. Article Page Specific Styles --- */
+.article-content {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  max-width: 800px;
+}
+.article-content h1,
+.article-content h2 {
+  text-align: left;
+  margin-bottom: 10px;
+}
+.article-content p,
+.article-content li {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  text-align: justify;
+}
+.article-content img {
+  max-width: 100%;
+  height: auto;
+  margin: 30px 0;
+  border-radius: 8px;
+  border: 1px solid #dee2e6;
+}
+.article-meta {
+  color: #6c757d;
+  font-style: italic;
+  margin-bottom: 40px;
+}
+.back-link a {
+  font-weight: bold;
+  text-decoration: none;
+  color: var(--accent-color);
+}
